@@ -24,6 +24,7 @@ def home():
                            
                            MEMORY_TOTAL_GB=get_memory_total_gb(),
                            MEMORY_USED_GB=get_memory_used_gb(),
+                           MEMORY_LEFT_GB=get_memory_left(),
                            MEMORY_USAGE_PERCENT=get_memory_percentage(),
                            
                            NETWORK_IP=get_primary_ip(),

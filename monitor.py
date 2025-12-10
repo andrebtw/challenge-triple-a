@@ -69,6 +69,9 @@ def get_memory_total_gb():
 def get_memory_used_gb():
     return round(psutil.virtual_memory().used / (1024 ** 3), 2)
 
+def get_memory_left():
+    return round(psutil.virtual_memory().available / (1024 ** 3), 2)
+
 
 def get_memory_percentage():
     return psutil.virtual_memory().percent

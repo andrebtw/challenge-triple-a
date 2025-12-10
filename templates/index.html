@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>Machine monitor</title>
@@ -37,7 +38,8 @@
             <h2>CPU</h2>
             <div class="grid">
                 <div class="left-side">
-                    <p><strong>Core count:</strong> {{ CPU_CORE_COUNT }}</p>
+                    <p><strong>Physical core count:</strong> {{ CPU_CORE_COUNT }}</p>
+                    <p><strong>Logical core count:</strong> {{ CPU_THREADS_COUNT }}</p>
                     <p><strong>Current frequency:</strong> {{ CPU_CURRENT_FREQ }} MHZ</p>
                     <p><strong>Usage:</strong> {{ CPU_PERCENTAGE }} %</p>
 
@@ -61,6 +63,7 @@
             <h2>Memory</h2>
             <p><strong>Memory total:</strong> {{ MEMORY_TOTAL_GB }} GB</p>
             <p><strong>Memory used:</strong> {{ MEMORY_USED_GB }} GB</p>
+            <p><strong>Memory left:</strong> {{ MEMORY_LEFT_GB }} GB</p>
             <p><strong>Usage:</strong> {{ MEMORY_USAGE_PERCENT }} %</p>
             <div class="meter" aria-label="Memory usage">
                 <div class="meter__bar" style="width: {{ MEMORY_USAGE_PERCENT }}%;"></div>
