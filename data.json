@@ -5051,6 +5051,2124 @@
                     "ram": 0.04965059113366613
                 }
             ]
+        },
+        {
+            "time": "2025-12-10T16:46:19.518751",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": "unknown",
+            "CPU.percentage": 2.5,
+            "RAM.used": 1.98,
+            "RAM.total": 3.302,
+            "RAM.percentage": 61.9,
+            "SYS.machine_name": "andre",
+            "SYS.operating_system_ver": "#8-Ubuntu SMP PREEMPT_DYNAMIC Fri Nov 14 20:54:15 UTC 2025",
+            "SYS.system_wake_up": "2025-12-10 11:24:36",
+            "SYS.wake_uptime": 19303.724085330963,
+            "SYS.connected_users_count": 0,
+            "SYS.main_IP": "172.16.111.129",
+            "PROCESSES": [
+                {
+                    "pid": 1,
+                    "name": "systemd",
+                    "cpu": 0.0,
+                    "ram": 0.3394259796044035
+                },
+                {
+                    "pid": 2,
+                    "name": "kthreadd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 3,
+                    "name": "pool_workqueue_release",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 4,
+                    "name": "kworker/R-rcu_gp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 5,
+                    "name": "kworker/R-sync_wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 6,
+                    "name": "kworker/R-kvfree_rcu_reclaim",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 7,
+                    "name": "kworker/R-slub_flushwq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 8,
+                    "name": "kworker/R-netns",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 10,
+                    "name": "kworker/0:0H-kblockd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 13,
+                    "name": "kworker/R-mm_percpu_wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 14,
+                    "name": "ksoftirqd/0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 15,
+                    "name": "rcu_preempt",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 16,
+                    "name": "rcu_exp_par_gp_kthread_worker/0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 17,
+                    "name": "rcu_exp_gp_kthread_worker",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 18,
+                    "name": "migration/0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 19,
+                    "name": "idle_inject/0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 20,
+                    "name": "cpuhp/0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 21,
+                    "name": "cpuhp/1",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 22,
+                    "name": "idle_inject/1",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 23,
+                    "name": "migration/1",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 24,
+                    "name": "ksoftirqd/1",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 26,
+                    "name": "kworker/1:0H-events_highpri",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 27,
+                    "name": "cpuhp/2",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 28,
+                    "name": "idle_inject/2",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 29,
+                    "name": "migration/2",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 30,
+                    "name": "ksoftirqd/2",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 32,
+                    "name": "kworker/2:0H-events_highpri",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 33,
+                    "name": "cpuhp/3",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 34,
+                    "name": "idle_inject/3",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 35,
+                    "name": "migration/3",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 36,
+                    "name": "ksoftirqd/3",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 38,
+                    "name": "kworker/3:0H-events_highpri",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 39,
+                    "name": "kdevtmpfs",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 40,
+                    "name": "kworker/R-inet_frag_wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 41,
+                    "name": "rcu_tasks_kthread",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 42,
+                    "name": "rcu_tasks_rude_kthread",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 43,
+                    "name": "rcu_tasks_trace_kthread",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 44,
+                    "name": "kauditd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 45,
+                    "name": "khungtaskd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 47,
+                    "name": "oom_reaper",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 48,
+                    "name": "kworker/R-writeback",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 49,
+                    "name": "kcompactd0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 50,
+                    "name": "ksmd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 51,
+                    "name": "khugepaged",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 52,
+                    "name": "kworker/R-kblockd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 53,
+                    "name": "kworker/R-blkcg_punt_bio",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 54,
+                    "name": "kworker/R-kintegrityd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 56,
+                    "name": "kworker/R-tpm_dev_wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 57,
+                    "name": "kworker/R-ata_sff",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 58,
+                    "name": "kworker/R-md",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 59,
+                    "name": "kworker/R-md_bitmap",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 60,
+                    "name": "kworker/R-edac-poller",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 61,
+                    "name": "kworker/R-devfreq_wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 62,
+                    "name": "watchdogd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 65,
+                    "name": "kswapd0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 66,
+                    "name": "ecryptfs-kthread",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 67,
+                    "name": "kworker/R-kthrotld",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 68,
+                    "name": "irq/12-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 69,
+                    "name": "irq/13-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 70,
+                    "name": "irq/14-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 71,
+                    "name": "irq/15-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 72,
+                    "name": "irq/16-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 73,
+                    "name": "irq/17-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 74,
+                    "name": "irq/18-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 75,
+                    "name": "irq/19-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 76,
+                    "name": "irq/20-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 77,
+                    "name": "irq/21-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 78,
+                    "name": "irq/22-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 79,
+                    "name": "irq/23-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 80,
+                    "name": "irq/24-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 81,
+                    "name": "irq/25-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 82,
+                    "name": "irq/26-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 83,
+                    "name": "irq/27-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 84,
+                    "name": "irq/28-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 85,
+                    "name": "irq/29-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 86,
+                    "name": "irq/30-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 87,
+                    "name": "irq/31-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 88,
+                    "name": "irq/32-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 89,
+                    "name": "irq/33-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 90,
+                    "name": "irq/34-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 91,
+                    "name": "irq/35-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 92,
+                    "name": "irq/36-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 93,
+                    "name": "irq/37-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 94,
+                    "name": "irq/38-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 95,
+                    "name": "irq/39-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 96,
+                    "name": "irq/40-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 97,
+                    "name": "irq/41-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 98,
+                    "name": "irq/42-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 99,
+                    "name": "irq/43-pciehp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 100,
+                    "name": "kworker/R-acpi_thermal_pm",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 103,
+                    "name": "kworker/R-mld",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 104,
+                    "name": "kworker/3:1H-kblockd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 105,
+                    "name": "kworker/R-ipv6_addrconf",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 106,
+                    "name": "kworker/R-kstrp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 116,
+                    "name": "kworker/R-charger_manager",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 117,
+                    "name": "kworker/2:1H-kblockd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 171,
+                    "name": "kworker/1:1H-kblockd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 330,
+                    "name": "scsi_eh_0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 331,
+                    "name": "kworker/R-scsi_tmf_0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 332,
+                    "name": "scsi_eh_1",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 333,
+                    "name": "kworker/R-scsi_tmf_1",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 334,
+                    "name": "scsi_eh_2",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 335,
+                    "name": "kworker/R-scsi_tmf_2",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 336,
+                    "name": "scsi_eh_3",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 337,
+                    "name": "kworker/R-scsi_tmf_3",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 338,
+                    "name": "scsi_eh_4",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 339,
+                    "name": "kworker/R-scsi_tmf_4",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 340,
+                    "name": "scsi_eh_5",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 341,
+                    "name": "kworker/R-scsi_tmf_5",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 342,
+                    "name": "kworker/R-nvme-wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 343,
+                    "name": "kworker/R-nvme-reset-wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 344,
+                    "name": "kworker/R-nvme-delete-wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 345,
+                    "name": "kworker/R-nvme-auth-wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 351,
+                    "name": "scsi_eh_6",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 352,
+                    "name": "kworker/R-scsi_tmf_6",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 353,
+                    "name": "scsi_eh_7",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 355,
+                    "name": "kworker/R-scsi_tmf_7",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 356,
+                    "name": "scsi_eh_8",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 357,
+                    "name": "kworker/R-scsi_tmf_8",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 358,
+                    "name": "scsi_eh_9",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 359,
+                    "name": "kworker/R-scsi_tmf_9",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 360,
+                    "name": "scsi_eh_10",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 361,
+                    "name": "kworker/R-scsi_tmf_10",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 362,
+                    "name": "scsi_eh_11",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 363,
+                    "name": "kworker/R-scsi_tmf_11",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 364,
+                    "name": "scsi_eh_12",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 365,
+                    "name": "kworker/R-scsi_tmf_12",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 366,
+                    "name": "scsi_eh_13",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 367,
+                    "name": "kworker/R-scsi_tmf_13",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 368,
+                    "name": "scsi_eh_14",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 369,
+                    "name": "kworker/R-scsi_tmf_14",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 370,
+                    "name": "scsi_eh_15",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 371,
+                    "name": "kworker/R-scsi_tmf_15",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 372,
+                    "name": "scsi_eh_16",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 373,
+                    "name": "kworker/R-scsi_tmf_16",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 374,
+                    "name": "scsi_eh_17",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 375,
+                    "name": "kworker/R-scsi_tmf_17",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 376,
+                    "name": "scsi_eh_18",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 377,
+                    "name": "kworker/R-scsi_tmf_18",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 378,
+                    "name": "scsi_eh_19",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 379,
+                    "name": "kworker/R-scsi_tmf_19",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 380,
+                    "name": "scsi_eh_20",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 381,
+                    "name": "kworker/R-scsi_tmf_20",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 382,
+                    "name": "scsi_eh_21",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 383,
+                    "name": "kworker/R-scsi_tmf_21",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 384,
+                    "name": "scsi_eh_22",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 385,
+                    "name": "kworker/R-scsi_tmf_22",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 386,
+                    "name": "scsi_eh_23",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 387,
+                    "name": "kworker/R-scsi_tmf_23",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 388,
+                    "name": "scsi_eh_24",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 389,
+                    "name": "kworker/R-scsi_tmf_24",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 390,
+                    "name": "scsi_eh_25",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 391,
+                    "name": "kworker/R-scsi_tmf_25",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 392,
+                    "name": "scsi_eh_26",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 393,
+                    "name": "kworker/R-scsi_tmf_26",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 394,
+                    "name": "scsi_eh_27",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 395,
+                    "name": "kworker/R-scsi_tmf_27",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 396,
+                    "name": "scsi_eh_28",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 397,
+                    "name": "kworker/R-scsi_tmf_28",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 398,
+                    "name": "scsi_eh_29",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 399,
+                    "name": "kworker/R-scsi_tmf_29",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 442,
+                    "name": "kworker/3:2-events",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 443,
+                    "name": "kworker/0:2H-kblockd",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 454,
+                    "name": "jbd2/nvme0n1p2-8",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 455,
+                    "name": "kworker/R-ext4-rsv-conversion",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 512,
+                    "name": "systemd-journald",
+                    "cpu": 0.0,
+                    "ram": 0.5010518970538795
+                },
+                {
+                    "pid": 563,
+                    "name": "systemd-oomd",
+                    "cpu": 0.0,
+                    "ram": 0.16740239770142296
+                },
+                {
+                    "pid": 564,
+                    "name": "systemd-resolved",
+                    "cpu": 0.0,
+                    "ram": 0.3134318184706422
+                },
+                {
+                    "pid": 570,
+                    "name": "systemd-udevd",
+                    "cpu": 0.0,
+                    "ram": 0.1854250160874975
+                },
+                {
+                    "pid": 572,
+                    "name": "psimon",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 618,
+                    "name": "irq/60-vmw_vmci",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 619,
+                    "name": "irq/61-vmw_vmci",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 620,
+                    "name": "irq/62-vmw_vmci",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 709,
+                    "name": "irq/66-vmwgfx",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 710,
+                    "name": "irq/67-vmwgfx",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 711,
+                    "name": "irq/68-vmwgfx",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 712,
+                    "name": "irq/69-vmwgfx",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 713,
+                    "name": "irq/70-vmwgfx",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 714,
+                    "name": "irq/71-vmwgfx",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 715,
+                    "name": "kworker/R-ttm",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 935,
+                    "name": "kworker/u17:2-ttm",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 1252,
+                    "name": "avahi-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.0827191972078805
+                },
+                {
+                    "pid": 1253,
+                    "name": "chronyd-starter",
+                    "cpu": 0.0,
+                    "ram": 0.03951112492331722
+                },
+                {
+                    "pid": 1254,
+                    "name": "dbus-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.16751792730646192
+                },
+                {
+                    "pid": 1261,
+                    "name": "networkd-dispat",
+                    "cpu": 0.0,
+                    "ram": 0.16901981217196813
+                },
+                {
+                    "pid": 1262,
+                    "name": "polkitd",
+                    "cpu": 0.0,
+                    "ram": 0.27380516394228605
+                },
+                {
+                    "pid": 1270,
+                    "name": "accounts-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.1742186443987204
+                },
+                {
+                    "pid": 1273,
+                    "name": "cron",
+                    "cpu": 0.0,
+                    "ram": 0.06481210842684491
+                },
+                {
+                    "pid": 1275,
+                    "name": "switcheroo-control",
+                    "cpu": 0.0,
+                    "ram": 0.16301227270994328
+                },
+                {
+                    "pid": 1277,
+                    "name": "systemd-logind",
+                    "cpu": 0.0,
+                    "ram": 0.21107258840614204
+                },
+                {
+                    "pid": 1278,
+                    "name": "udisksd",
+                    "cpu": 0.0,
+                    "ram": 0.2513924205647318
+                },
+                {
+                    "pid": 1299,
+                    "name": "rsyslogd",
+                    "cpu": 0.0,
+                    "ram": 0.0903441511404505
+                },
+                {
+                    "pid": 1329,
+                    "name": "avahi-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.03211723020082512
+                },
+                {
+                    "pid": 1371,
+                    "name": "chronyd",
+                    "cpu": 0.0,
+                    "ram": 0.2765778744632206
+                },
+                {
+                    "pid": 1378,
+                    "name": "wpa_supplicant",
+                    "cpu": 0.0,
+                    "ram": 0.09381003929161867
+                },
+                {
+                    "pid": 1384,
+                    "name": "chronyd",
+                    "cpu": 0.0,
+                    "ram": 0.06515869724196174
+                },
+                {
+                    "pid": 1419,
+                    "name": "ModemManager",
+                    "cpu": 0.0,
+                    "ram": 0.1857716049026143
+                },
+                {
+                    "pid": 1590,
+                    "name": "cupsd",
+                    "cpu": 0.0,
+                    "ram": 0.17052169703747433
+                },
+                {
+                    "pid": 1594,
+                    "name": "unattended-upgr",
+                    "cpu": 0.0,
+                    "ram": 0.19443632528053476
+                },
+                {
+                    "pid": 1724,
+                    "name": "cups-browsed",
+                    "cpu": 0.0,
+                    "ram": 0.25358748306047163
+                },
+                {
+                    "pid": 1790,
+                    "name": "gdm3",
+                    "cpu": 0.0,
+                    "ram": 0.22239448969995806
+                },
+                {
+                    "pid": 1798,
+                    "name": "gdm-session-worker",
+                    "cpu": 0.0,
+                    "ram": 0.24030157848099362
+                },
+                {
+                    "pid": 1806,
+                    "name": "systemd",
+                    "cpu": 0.0,
+                    "ram": 0.3199014763528228
+                },
+                {
+                    "pid": 1809,
+                    "name": "(sd-pam)",
+                    "cpu": 0.0,
+                    "ram": 0.054067855158223564
+                },
+                {
+                    "pid": 1829,
+                    "name": "dbus-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.13794234841649347
+                },
+                {
+                    "pid": 1830,
+                    "name": "pipewire",
+                    "cpu": 0.0,
+                    "ram": 0.11437430898854986
+                },
+                {
+                    "pid": 1831,
+                    "name": "pipewire",
+                    "cpu": 0.0,
+                    "ram": 0.06458104921676705
+                },
+                {
+                    "pid": 1833,
+                    "name": "gnome-keyring-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.2139608285321155
+                },
+                {
+                    "pid": 1840,
+                    "name": "mpris-proxy",
+                    "cpu": 0.0,
+                    "ram": 0.08399002286330884
+                },
+                {
+                    "pid": 1841,
+                    "name": "rtkit-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.0677003485528184
+                },
+                {
+                    "pid": 1842,
+                    "name": "wireplumber",
+                    "cpu": 0.0,
+                    "ram": 0.23279215415346258
+                },
+                {
+                    "pid": 1843,
+                    "name": "pipewire-pulse",
+                    "cpu": 0.0,
+                    "ram": 0.14845554247503695
+                },
+                {
+                    "pid": 1847,
+                    "name": "gdm-wayland-session",
+                    "cpu": 0.0,
+                    "ram": 0.15735132206303526
+                },
+                {
+                    "pid": 1856,
+                    "name": "gnome-session-init-worker",
+                    "cpu": 0.0,
+                    "ram": 0.14498965432386876
+                },
+                {
+                    "pid": 1904,
+                    "name": "gcr-ssh-agent",
+                    "cpu": 0.0,
+                    "ram": 0.1395597628870386
+                },
+                {
+                    "pid": 1906,
+                    "name": "gnome-session-ctl",
+                    "cpu": 0.0,
+                    "ram": 0.12962421685368983
+                },
+                {
+                    "pid": 1908,
+                    "name": "ssh-agent",
+                    "cpu": 0.0,
+                    "ram": 0.1624346246847486
+                },
+                {
+                    "pid": 1919,
+                    "name": "gvfsd",
+                    "cpu": 0.0,
+                    "ram": 0.1821901871464072
+                },
+                {
+                    "pid": 1926,
+                    "name": "gvfsd-fuse",
+                    "cpu": 0.0,
+                    "ram": 0.1662471016510336
+                },
+                {
+                    "pid": 1964,
+                    "name": "gnome-session-service",
+                    "cpu": 0.0,
+                    "ram": 0.20968623314567475
+                },
+                {
+                    "pid": 1971,
+                    "name": "gnome-shell",
+                    "cpu": 0.0,
+                    "ram": 5.106755131536231
+                },
+                {
+                    "pid": 2000,
+                    "name": "at-spi-bus-launcher",
+                    "cpu": 0.0,
+                    "ram": 0.16855769375181237
+                },
+                {
+                    "pid": 2007,
+                    "name": "dbus-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.09230815442611247
+                },
+                {
+                    "pid": 2009,
+                    "name": "at-spi2-registryd",
+                    "cpu": 0.0,
+                    "ram": 0.1565426148277627
+                },
+                {
+                    "pid": 2010,
+                    "name": "colord",
+                    "cpu": 0.0,
+                    "ram": 0.21742671668328367
+                },
+                {
+                    "pid": 2039,
+                    "name": "xdg-permission-store",
+                    "cpu": 0.0,
+                    "ram": 0.15966191416381406
+                },
+                {
+                    "pid": 2041,
+                    "name": "gnome-shell-calendar-server",
+                    "cpu": 0.0,
+                    "ram": 0.25208559819496545
+                },
+                {
+                    "pid": 2055,
+                    "name": "evolution-source-registry",
+                    "cpu": 0.0,
+                    "ram": 0.33584456184819644
+                },
+                {
+                    "pid": 2067,
+                    "name": "dconf-service",
+                    "cpu": 0.0,
+                    "ram": 0.1545786115421007
+                },
+                {
+                    "pid": 2077,
+                    "name": "gjs",
+                    "cpu": 0.0,
+                    "ram": 0.5226559331961611
+                },
+                {
+                    "pid": 2078,
+                    "name": "upowerd",
+                    "cpu": 0.0,
+                    "ram": 0.21465400616234911
+                },
+                {
+                    "pid": 2089,
+                    "name": "ibus-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.31655111780669354
+                },
+                {
+                    "pid": 2091,
+                    "name": "gsd-a11y-settings",
+                    "cpu": 0.0,
+                    "ram": 0.1706372266425133
+                },
+                {
+                    "pid": 2092,
+                    "name": "gsd-color",
+                    "cpu": 0.0,
+                    "ram": 0.17745347333981068
+                },
+                {
+                    "pid": 2093,
+                    "name": "gsd-datetime",
+                    "cpu": 0.0,
+                    "ram": 0.1736409963735257
+                },
+                {
+                    "pid": 2095,
+                    "name": "gsd-housekeeping",
+                    "cpu": 0.0,
+                    "ram": 0.20379422328868887
+                },
+                {
+                    "pid": 2100,
+                    "name": "gsd-keyboard",
+                    "cpu": 0.0,
+                    "ram": 0.16913534177700706
+                },
+                {
+                    "pid": 2106,
+                    "name": "gsd-media-keys",
+                    "cpu": 0.0,
+                    "ram": 0.21141917722125883
+                },
+                {
+                    "pid": 2108,
+                    "name": "gsd-power",
+                    "cpu": 0.0,
+                    "ram": 0.20113704237279323
+                },
+                {
+                    "pid": 2110,
+                    "name": "gsd-print-notifications",
+                    "cpu": 0.0,
+                    "ram": 0.19801774303674188
+                },
+                {
+                    "pid": 2111,
+                    "name": "sh",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 2113,
+                    "name": "snap",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 2116,
+                    "name": "gsd-rfkill",
+                    "cpu": 0.0,
+                    "ram": 0.17883982860027797
+                },
+                {
+                    "pid": 2117,
+                    "name": "gsd-disk-utility-notify",
+                    "cpu": 0.0,
+                    "ram": 0.16786451612157874
+                },
+                {
+                    "pid": 2119,
+                    "name": "evolution-alarm-notify",
+                    "cpu": 0.0,
+                    "ram": 0.5335157160698214
+                },
+                {
+                    "pid": 2121,
+                    "name": "gsd-screensaver-proxy",
+                    "cpu": 0.0,
+                    "ram": 0.1565426148277627
+                },
+                {
+                    "pid": 2125,
+                    "name": "ubuntu-report",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 2127,
+                    "name": "ubuntu-advantag",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 2128,
+                    "name": "update-notifier",
+                    "cpu": 0.0,
+                    "ram": 0.5002431898186069
+                },
+                {
+                    "pid": 2129,
+                    "name": "gsd-sharing",
+                    "cpu": 0.0,
+                    "ram": 0.22505167061585368
+                },
+                {
+                    "pid": 2133,
+                    "name": "gsd-smartcard",
+                    "cpu": 0.0,
+                    "ram": 0.17676029570957705
+                },
+                {
+                    "pid": 2135,
+                    "name": "gsd-sound",
+                    "cpu": 0.0,
+                    "ram": 0.18426972003710812
+                },
+                {
+                    "pid": 2140,
+                    "name": "gsd-usb-protection",
+                    "cpu": 0.0,
+                    "ram": 0.1742186443987204
+                },
+                {
+                    "pid": 2176,
+                    "name": "gsd-wwan",
+                    "cpu": 0.0,
+                    "ram": 0.1771068845246939
+                },
+                {
+                    "pid": 2215,
+                    "name": "bwrap",
+                    "cpu": 0.0,
+                    "ram": 0.04182171702409601
+                },
+                {
+                    "pid": 2221,
+                    "name": "bwrap",
+                    "cpu": 0.0,
+                    "ram": 0.02969110849500739
+                },
+                {
+                    "pid": 2226,
+                    "name": "glycin-image-rs",
+                    "cpu": 0.0,
+                    "ram": 0.03951112492331722
+                },
+                {
+                    "pid": 2242,
+                    "name": "gvfs-udisks2-volume-monitor",
+                    "cpu": 0.0,
+                    "ram": 0.2398394600608379
+                },
+                {
+                    "pid": 2253,
+                    "name": "gjs",
+                    "cpu": 0.0,
+                    "ram": 0.4967773016674388
+                },
+                {
+                    "pid": 2258,
+                    "name": "goa-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.29275201916867205
+                },
+                {
+                    "pid": 2284,
+                    "name": "gsd-printer",
+                    "cpu": 0.0,
+                    "ram": 0.17375652597856464
+                },
+                {
+                    "pid": 2286,
+                    "name": "evolution-calendar-factory",
+                    "cpu": 0.0,
+                    "ram": 0.30187885796674824
+                },
+                {
+                    "pid": 2339,
+                    "name": "goa-identity-service",
+                    "cpu": 0.0,
+                    "ram": 0.17930194702043373
+                },
+                {
+                    "pid": 2354,
+                    "name": "gvfs-mtp-volume-monitor",
+                    "cpu": 0.0,
+                    "ram": 0.17560499965918766
+                },
+                {
+                    "pid": 2364,
+                    "name": "gvfs-goa-volume-monitor",
+                    "cpu": 0.0,
+                    "ram": 0.16555392402079994
+                },
+                {
+                    "pid": 2373,
+                    "name": "evolution-addressbook-factory",
+                    "cpu": 0.0,
+                    "ram": 0.40689526894714406
+                },
+                {
+                    "pid": 2377,
+                    "name": "gvfs-gphoto2-volume-monitor",
+                    "cpu": 0.0,
+                    "ram": 0.17444970360879827
+                },
+                {
+                    "pid": 2378,
+                    "name": "gvfsd-metadata",
+                    "cpu": 0.0,
+                    "ram": 0.16555392402079994
+                },
+                {
+                    "pid": 2391,
+                    "name": "gvfs-afc-volume-monitor",
+                    "cpu": 0.0,
+                    "ram": 0.20714458183481807
+                },
+                {
+                    "pid": 2398,
+                    "name": "ibus-memconf",
+                    "cpu": 0.0,
+                    "ram": 0.17537394044910978
+                },
+                {
+                    "pid": 2404,
+                    "name": "ibus-extension-gtk3",
+                    "cpu": 0.0,
+                    "ram": 0.41290280840916893
+                },
+                {
+                    "pid": 2410,
+                    "name": "ibus-portal",
+                    "cpu": 0.0,
+                    "ram": 0.18034171346578418
+                },
+                {
+                    "pid": 2412,
+                    "name": "localsearch-3",
+                    "cpu": 0.0,
+                    "ram": 0.5046333148100867
+                },
+                {
+                    "pid": 2450,
+                    "name": "ibus-engine-simple",
+                    "cpu": 0.0,
+                    "ram": 0.1938586772553401
+                },
+                {
+                    "pid": 2463,
+                    "name": "Xwayland",
+                    "cpu": 0.0,
+                    "ram": 0.5472637390694552
+                },
+                {
+                    "pid": 2519,
+                    "name": "gvfsd-trash",
+                    "cpu": 0.0,
+                    "ram": 0.20887752591040218
+                },
+                {
+                    "pid": 2607,
+                    "name": "ubuntu-advantage-desktop-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.13620940434090936
+                },
+                {
+                    "pid": 2619,
+                    "name": "gsd-xsettings",
+                    "cpu": 0.0,
+                    "ram": 0.2280554403468661
+                },
+                {
+                    "pid": 2625,
+                    "name": "xdg-desktop-portal",
+                    "cpu": 0.0,
+                    "ram": 0.3408123348648708
+                },
+                {
+                    "pid": 2626,
+                    "name": "mutter-x11-frames",
+                    "cpu": 0.0,
+                    "ram": 1.0165449947376264
+                },
+                {
+                    "pid": 2660,
+                    "name": "xdg-document-portal",
+                    "cpu": 0.0,
+                    "ram": 0.16855769375181237
+                },
+                {
+                    "pid": 2676,
+                    "name": "fusermount3",
+                    "cpu": 0.0,
+                    "ram": 0.042514894654329644
+                },
+                {
+                    "pid": 2681,
+                    "name": "xdg-desktop-portal-gnome",
+                    "cpu": 0.0,
+                    "ram": 0.43959014717316386
+                },
+                {
+                    "pid": 2686,
+                    "name": "ibus-x11",
+                    "cpu": 0.0,
+                    "ram": 0.6915602157630903
+                },
+                {
+                    "pid": 2738,
+                    "name": "xdg-desktop-portal-gtk",
+                    "cpu": 0.0,
+                    "ram": 0.43901249914796914
+                },
+                {
+                    "pid": 3000,
+                    "name": "snapd-desktop-integration",
+                    "cpu": 0.0,
+                    "ram": 0.011899549319010742
+                },
+                {
+                    "pid": 3162,
+                    "name": "snapd-desktop-integration",
+                    "cpu": 0.0,
+                    "ram": 0.08156390115749111
+                },
+                {
+                    "pid": 3215,
+                    "name": "power-profiles-daemon",
+                    "cpu": 0.0,
+                    "ram": 0.16705580888630617
+                },
+                {
+                    "pid": 3289,
+                    "name": "firefox",
+                    "cpu": 0.0,
+                    "ram": 7.707904188987949
+                },
+                {
+                    "pid": 3435,
+                    "name": "crashhelper",
+                    "cpu": 0.0,
+                    "ram": 0.004159065781401813
+                },
+                {
+                    "pid": 3515,
+                    "name": "Socket Process",
+                    "cpu": 0.0,
+                    "ram": 0.24769547320348576
+                },
+                {
+                    "pid": 3542,
+                    "name": "forkserver",
+                    "cpu": 0.0,
+                    "ram": 0.16370545034017692
+                },
+                {
+                    "pid": 3554,
+                    "name": "WebExtensions",
+                    "cpu": 0.0,
+                    "ram": 0.6547062717556688
+                },
+                {
+                    "pid": 3564,
+                    "name": "RDD Process",
+                    "cpu": 0.0,
+                    "ram": 0.228170969951905
+                },
+                {
+                    "pid": 3601,
+                    "name": "Privileged Cont",
+                    "cpu": 0.0,
+                    "ram": 1.0634500143834358
+                },
+                {
+                    "pid": 3636,
+                    "name": "snap",
+                    "cpu": 0.0,
+                    "ram": 0.21465400616234911
+                },
+                {
+                    "pid": 4080,
+                    "name": "Utility Process",
+                    "cpu": 0.0,
+                    "ram": 0.23879969361548745
+                },
+                {
+                    "pid": 4447,
+                    "name": "ptyxis",
+                    "cpu": 0.0,
+                    "ram": 2.6214822679385708
+                },
+                {
+                    "pid": 4454,
+                    "name": "ptyxis-agent",
+                    "cpu": 0.0,
+                    "ram": 0.1789553582053169
+                },
+                {
+                    "pid": 4494,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.115991723459095
+                },
+                {
+                    "pid": 8989,
+                    "name": "snapd",
+                    "cpu": 0.0,
+                    "ram": 0.5122582687426567
+                },
+                {
+                    "pid": 9621,
+                    "name": "NetworkManager",
+                    "cpu": 0.0,
+                    "ram": 0.36773073283894364
+                },
+                {
+                    "pid": 10357,
+                    "name": "Isolated Web Co",
+                    "cpu": 0.0,
+                    "ram": 3.0252582375496635
+                },
+                {
+                    "pid": 10384,
+                    "name": "Isolated Web Co",
+                    "cpu": 0.0,
+                    "ram": 0.6986075216704657
+                },
+                {
+                    "pid": 10444,
+                    "name": "Isolated Servic",
+                    "cpu": 0.0,
+                    "ram": 0.5977501764714717
+                },
+                {
+                    "pid": 10474,
+                    "name": "Isolated Web Co",
+                    "cpu": 0.0,
+                    "ram": 0.6296363474622189
+                },
+                {
+                    "pid": 10507,
+                    "name": "Web Content",
+                    "cpu": 0.0,
+                    "ram": 0.47586644315539084
+                },
+                {
+                    "pid": 10510,
+                    "name": "Web Content",
+                    "cpu": 0.0,
+                    "ram": 0.4883436404995963
+                },
+                {
+                    "pid": 10552,
+                    "name": "Web Content",
+                    "cpu": 0.0,
+                    "ram": 0.48822811089455725
+                },
+                {
+                    "pid": 12071,
+                    "name": "psimon",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 12113,
+                    "name": "sshd",
+                    "cpu": 0.0,
+                    "ram": 0.18554054569253645
+                },
+                {
+                    "pid": 12250,
+                    "name": "kworker/R-tls-strp",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 12429,
+                    "name": "sh",
+                    "cpu": 0.0,
+                    "ram": 0.03881794729308359
+                },
+                {
+                    "pid": 12433,
+                    "name": "node",
+                    "cpu": 0.0,
+                    "ram": 3.601982025904048
+                },
+                {
+                    "pid": 12476,
+                    "name": "node",
+                    "cpu": 0.0,
+                    "ram": 2.076760180179972
+                },
+                {
+                    "pid": 12633,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.1268515063327553
+                },
+                {
+                    "pid": 13987,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.0941566281067355
+                },
+                {
+                    "pid": 14235,
+                    "name": "fwupd",
+                    "cpu": 0.0,
+                    "ram": 0.46546877870188624
+                },
+                {
+                    "pid": 15261,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.09484980573696912
+                },
+                {
+                    "pid": 16010,
+                    "name": "kworker/u17:1-ttm",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 16310,
+                    "name": "kworker/0:0-events",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 16605,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.09970204914860459
+                },
+                {
+                    "pid": 17202,
+                    "name": "kworker/2:0-events",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 17297,
+                    "name": "gjs",
+                    "cpu": 0.0,
+                    "ram": 1.2375531291771174
+                },
+                {
+                    "pid": 17665,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.10016416756876033
+                },
+                {
+                    "pid": 18342,
+                    "name": "obexd",
+                    "cpu": 0.0,
+                    "ram": 0.3970752525188342
+                },
+                {
+                    "pid": 19184,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.09993310835868245
+                },
+                {
+                    "pid": 19519,
+                    "name": "gnome-system-monitor",
+                    "cpu": 0.0,
+                    "ram": 5.320253841648192
+                },
+                {
+                    "pid": 37088,
+                    "name": "sshd-session",
+                    "cpu": 0.0,
+                    "ram": 0.29760426258030753
+                },
+                {
+                    "pid": 37169,
+                    "name": "sshd-session",
+                    "cpu": 0.0,
+                    "ram": 0.20749117064993491
+                },
+                {
+                    "pid": 37170,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.1639365095502548
+                },
+                {
+                    "pid": 48829,
+                    "name": "kworker/u16:0-events_power_efficient",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 58194,
+                    "name": "kworker/1:3-mm_percpu_wq",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 62411,
+                    "name": "kworker/1:1-cgroup_free",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 62625,
+                    "name": "kworker/u16:2-events_unbound",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 68003,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.14533624313898558
+                },
+                {
+                    "pid": 72055,
+                    "name": "node",
+                    "cpu": 0.0,
+                    "ram": 16.283204652608255
+                },
+                {
+                    "pid": 72068,
+                    "name": "node",
+                    "cpu": 0.0,
+                    "ram": 1.7462299801635668
+                },
+                {
+                    "pid": 72164,
+                    "name": "pet",
+                    "cpu": 0.0,
+                    "ram": 0.13886658525680498
+                },
+                {
+                    "pid": 72280,
+                    "name": "bash",
+                    "cpu": 0.0,
+                    "ram": 0.17121487466770796
+                },
+                {
+                    "pid": 72361,
+                    "name": "node",
+                    "cpu": 0.0,
+                    "ram": 14.082827795036618
+                },
+                {
+                    "pid": 75801,
+                    "name": "kworker/0:3-cgroup_free",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 79780,
+                    "name": "kworker/3:1-cgroup_free",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 79936,
+                    "name": "kworker/u16:3-flush-259:0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 80249,
+                    "name": "kworker/2:1-cgroup_free",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 81381,
+                    "name": "kworker/0:1",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 82112,
+                    "name": "kworker/1:0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 82578,
+                    "name": "kworker/3:0",
+                    "cpu": 0.0,
+                    "ram": 0.0
+                },
+                {
+                    "pid": 82948,
+                    "name": "nm-dispatcher",
+                    "cpu": 0.0,
+                    "ram": 0.24792653241356363
+                },
+                {
+                    "pid": 82972,
+                    "name": "python3",
+                    "cpu": 0.0,
+                    "ram": 0.37859051571260394
+                }
+            ]
         }
     ]
 }
