@@ -21,9 +21,11 @@ if __name__ == "__main__":
         "RAM.used": round(psutil.virtual_memory().used / (1024 ** 3), 3),
         "RAM.total": round(psutil.virtual_memory().total / (1024 ** 3), 3),
         "RAM.percentage": psutil.virtual_memory().percent
+
+        "SYS.machine_name": 
     }
 
-    
+
     data.setdefault("logs", [])
     data["logs"].append(log)
 
