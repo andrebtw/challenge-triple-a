@@ -1,0 +1,102 @@
+{
+    "logs": [
+        {
+            "time": "2025-12-10T14:26:14.449842",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": null,
+            "CPU.percentage": 13.9
+        },
+        {
+            "time": "2025-12-10T14:26:19.540756",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": null,
+            "CPU.percentage": 20.3
+        },
+        {
+            "time": "2025-12-10T14:26:23.943359",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": null,
+            "CPU.percentage": 26.6
+        },
+        {
+            "time": "2025-12-10T14:26:27.958576",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": null,
+            "CPU.percentage": 15.2
+        },
+        {
+            "time": "2025-12-10T14:26:47.896983",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": null,
+            "CPU.percentage": 21.5
+        },
+        {
+            "time": "2025-12-10T14:26:50.072116",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": null,
+            "CPU.percentage": 18.1
+        },
+        {
+            "time": "2025-12-10T14:40:08.957481",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": "unknown",
+            "CPU.percentage": 16.7,
+            "RAM.used": 2490777600,
+            "RAM.total": 3545411584
+        },
+        {
+            "time": "2025-12-10T14:40:37.405229",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": "unknown",
+            "CPU.percentage": 10.1,
+            "RAM.used": 2.3378257751464844,
+            "RAM.total": 3.301921844482422
+        },
+        {
+            "time": "2025-12-10T14:40:40.891112",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": "unknown",
+            "CPU.percentage": 10.0,
+            "RAM.used": 2.337207794189453,
+            "RAM.total": 3.301921844482422
+        },
+        {
+            "time": "2025-12-10T14:41:09.760075",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": "unknown",
+            "CPU.percentage": 15.0,
+            "RAM.used": 2.376,
+            "RAM.total": 3.302
+        },
+        {
+            "time": "2025-12-10T14:45:10.909448",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": "unknown",
+            "CPU.percentage": 8.9,
+            "RAM.used": 2.365,
+            "RAM.total": 3.302,
+            "RAM.percentage": 75.6
+        },
+        {
+            "time": "2025-12-10T14:45:13.070028",
+            "CPU.physical_core_count": 4,
+            "CPU.logical_core_count": 4,
+            "CPU.speed_current": "unknown",
+            "CPU.percentage": 32.4,
+            "RAM.used": 2.393,
+            "RAM.total": 3.302,
+            "RAM.percentage": 76.5
+        }
+    ]
+}
