@@ -48,7 +48,7 @@ def home():
         "RAM.total": round(psutil.virtual_memory().total / (1024 ** 3), 3),
         "RAM.percentage": psutil.virtual_memory().percent,
 
-        "SYS.machine_name": os.uname().nodename,
+        "SYS.hostname": os.uname().nodename,
         "SYS.operating_system_ver":platform.version(),
         "SYS.system_wake_up": str(datetime.fromtimestamp(psutil.boot_time())),
         "SYS.wake_uptime": time.time() - psutil.boot_time(),
@@ -58,7 +58,19 @@ def home():
     }
 
     return render_template("index.html",
-                           CPU_PERCENTAGE = log["CPU.percentage"])
+                           SYS_HOSTNAME = log["SYS.hostname"],
+                           SYS_OS_NAME = log["SYS.operating_system_ver"],
+                           SYS_UPTIME = log["SYS.wake_uptime"],
+                           SYS_CONNECTED_USERS = log["SYS.connected_users_count"],
+                           CPU_PERCENTAGE=log["CPU.percentage"],
+                           CPU_CORE_COUNT=log["CPU.logical_core_count"],
+                           CPU_CURRENT_FREQ=log["CPU.speed_current"],
+                           MEMORY_TOTAL_GB=log["RAM.total"],
+                           MEMORY_USED_GB=log["RAM.used"],
+                           MEMORY_USAGE_PERCENT=log["RAM.percentage"],
+                           NETWORK_IP=log["SYS.main_IP"],
+
+                           )
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,15 +1,90 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Machine monitor</title>
 </head>
+
 <body>
-    <h1> CPU Details</h1>
-    <ul>
-        <li>
-            CPU: {{ CPU_PERCENTAGE }} %
-        </li>
-    </ul>
+    <nav>
+        <ul>
+            <li><a href="#system">home</a></li>
+            <li><a href="#cpu">home</a></li>
+            <li><a href="#memory">home</a></li>
+            <li><a href="#network">home</a></li>
+            <li><a href="#processes">home</a></li>
+            <li><a href="#files">home</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Machine dashboard</h1>
+        <p>Generated at {{ generation_time }}</p>
+    </header>
+
+    <main>
+        <section class="system" id="system">
+            <h2>System</h2>
+            <p>Hostname: {{ SYS_HOSTNAME }}</p>
+            <p>Os: {{ SYS_OS_NAME }}</p>
+            <p>Uptime: {{ SYS_UPTIME }}</p>
+            <p>Connected users: {{ SYS_CONNECTED_USERS }}</p>
+        </section>
+
+        <section class="cpu" id="cpu">
+            <h2>CPU</h2>
+            <p>Cores: {{ CPU_CORE_COUNT }}</p>
+            <p>Current frequency: {{ CPU_CURRENT_FREQ }} MHZ</p>
+            <p>Usage: {{ CPU_PERCENTAGE }} %</p>
+        </section>
+
+        <section class="memory" id="memory">
+            <h2>RAM</h2>
+            <p>RAM total: {{ MEMORY_TOTAL_GB }} GB</p>
+            <p>RAM used: {{ MEMORY_USED_GB }} GB</p>
+            <p>Usage: {{ MEMORY_USAGE_PERCENT }} %</p>
+        </section>
+
+        <section class="network" id="network">
+            <h2>Network</h2>
+            <p>Network type: NAT</p>
+            <p>Main IP address: {{ NETWORK_IP }}</p>
+        </section>
+
+        <section class="processes" id="processes">
+            <h2>Processes</h2>
+            <h3>Top 3 by CPU</h3>
+            <ol>
+                {% for P in TOP_CPU_PROCESSES %}
+                <li>{{ P.name }} (PID {{ P.pid }}) - {{ P.cpu }} %</li>
+                {% endfor %}
+            </ol>
+
+            <h3>Top 3 by Memory</h3>
+            <ol>
+                {% for P in TOP_MEMORY_PROCESSES %}
+                <li>{{ P.name }} (PID {{ P.pid }}) - {{ P.ram }} %</li>
+                {% endfor %}
+            </ol>
+        </section>
+
+        <section class="files" id="files">
+            <h2>Files</h2>
+            <p>Analyzed folder: {{ FILES_DIRC }}</p>
+            <ul>
+                <li>Total files: {{ FILES_TOTAL_COUNT }}</li>
+                <li>Text files: {{ TEXT_FILES_COUNT }}</li>
+                <li>PDF files: {{ PDF_FILES_COUNT }}</li>
+                <li>Python files: {{ PY_FILES_COUNT }}</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Project released by AAD-Group using flask on {{system_hostname}}</p>
+    </footer>
+
 </body>
 </html>
