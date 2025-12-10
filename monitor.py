@@ -7,10 +7,10 @@ from datetime import timedelta
 import socket
 
 def get_time_now():
-    return datetime.now().isoformat()
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 def get_hostname():
-    os.uname().nodename
+    return os.uname().nodename
 
 def get_platform():
     if platform.system() == "Linux":
@@ -23,7 +23,7 @@ def get_platform():
         return f"{platform.system()} {platform.release()}"
 
 def get_uptime():
-    seconds = time.time() - psutil.boot_time()
+    seconds = int(time.time() - psutil.boot_time())
     return str(timedelta(seconds=seconds))
 
 def get_connected_users_count():
