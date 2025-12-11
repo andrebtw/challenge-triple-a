@@ -21,36 +21,42 @@
 
     <header>
         <h1>Machine dashboard</h1>
-        <p>Generated at {{ generation_time }}</p>
+        <p><strong>Generated at:</strong> {{ generation_time }}</p>
     </header>
 
     <main>
         <section class="system" id="system">
             <h2>System</h2>
-            <p>Hostname: {{ SYS_HOSTNAME }}</p>
-            <p>Os: {{ SYS_OS_NAME }}</p>
-            <p>Uptime: {{ SYS_UPTIME }}</p>
-            <p>Connected users: {{ SYS_CONNECTED_USERS }}</p>
+            <p><strong>Hostname:</strong> {{ SYS_HOSTNAME }}</p>
+            <p><strong>OS:</strong> {{ SYS_OS_NAME }}</p>
+            <p><strong>Uptime:</strong> {{ SYS_UPTIME }}</p>
+            <p><strong>Connected users:</strong> {{ SYS_CONNECTED_USERS }}</p>
         </section>
 
         <section class="cpu" id="cpu">
             <h2>CPU</h2>
-            <p>Cores: {{ CPU_CORE_COUNT }}</p>
-            <p>Current frequency: {{ CPU_CURRENT_FREQ }} MHZ</p>
-            <p>Usage: {{ CPU_PERCENTAGE }} %</p>
+            <p><strong>Cores:</strong> {{ CPU_CORE_COUNT }}</p>
+            <p><strong>Current frequency:</strong> {{ CPU_CURRENT_FREQ }} MHZ</p>
+            <p><strong>Usage:</strong> {{ CPU_PERCENTAGE }} %</p>
+            <div class="meter" aria-label="CPU usage">
+                <div class="meter__bar" style="width: 50%;"></div>
+            </div>
         </section>
 
         <section class="memory" id="memory">
             <h2>RAM</h2>
-            <p>RAM total: {{ MEMORY_TOTAL_GB }} GB</p>
-            <p>RAM used: {{ MEMORY_USED_GB }} GB</p>
-            <p>Usage: {{ MEMORY_USAGE_PERCENT }} %</p>
+            <p><strong>RAM total:</strong> {{ MEMORY_TOTAL_GB }} GB</p>
+            <p><strong>RAM used:</strong> {{ MEMORY_USED_GB }} GB</p>
+            <p><strong>Usage:</strong> {{ MEMORY_USAGE_PERCENT }} %</p>
+            <div class="meter meter--blue" aria-label="Memory usage">
+                <div class="meter__bar" style="width: 50%;"></div>
+            </div>
         </section>
 
         <section class="network" id="network">
             <h2>Network</h2>
-            <p>Network type: NAT</p>
-            <p>Main IP address: {{ NETWORK_IP }}</p>
+            <p><strong>Network type:</strong> NAT</p>
+            <p><strong>Main IP address:</strong> {{ NETWORK_IP }}</p>
         </section>
 
         <section class="processes" id="processes">
@@ -72,18 +78,42 @@
 
         <section class="files" id="files">
             <h2>Files</h2>
-            <p>Analyzed folder: {{ FILES_DIRC }}</p>
+            <p><strong>Analyzed folder:</strong> {{ FILES_DIRC }}</p>
             <ul>
                 <li>Total files: {{ FILES_TOTAL_COUNT }}</li>
                 <li>Text files: {{ TEXT_FILES_COUNT }}</li>
                 <li>PDF files: {{ PDF_FILES_COUNT }}</li>
                 <li>Python files: {{ PY_FILES_COUNT }}</li>
             </ul>
+            {% set total = FILES_TOTAL_COUNT or 1 %}
+            <div class="file-bars" aria-label="File type distribution">
+                <div class="file-bars__row">
+                    <span>Text</span>
+                    <div class="meter meter--slim">
+                        <div class="meter__bar" style="width: 50%;"></div>
+                    </div>
+                    <span class="file-bars__value">50%</span>
+                </div>
+                <div class="file-bars__row">
+                    <span>PDF</span>
+                    <div class="meter meter--slim">
+                        <div class="meter__bar meter__bar--pdf" style="width: 50%;"></div>
+                    </div>
+                    <span class="file-bars__value">50%</span>
+                </div>
+                <div class="file-bars__row">
+                    <span>Python</span>
+                    <div class="meter meter--slim">
+                        <div class="meter__bar meter__bar--python" style="width: 50%;"></div>
+                    </div>
+                    <span class="file-bars__value">50%</span>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>Project released by AAD-Group using flask on {{system_hostname}}</p>
+        <p><strong>Project released by AAD-Group using flask on {{system_hostname}}</strong></p>
     </footer>
 
 </body>

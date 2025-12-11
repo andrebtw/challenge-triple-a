@@ -127,6 +127,71 @@ li {
     font-size: 1.02rem;
 }
 
+p strong {
+    color: #ffffff;
+    font-weight: 750;
+}
+
+.meter {
+    width: 100%;
+    background: #0c0f14;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    height: 14px;
+    margin-top: 0.35rem;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+.meter--blue .meter__bar {
+    background: linear-gradient(90deg, #52a9ff, #7ed3ff);
+}
+
+.meter--slim {
+    height: 10px;
+}
+
+.meter__bar {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, var(--accent), var(--accent-strong));
+    transition: width 0.4s ease;
+}
+
+.meter__bar--pdf {
+    background: linear-gradient(90deg, #ff6b6b, #ffa07a);
+}
+
+.meter__bar--python {
+    background: linear-gradient(90deg, #ffd43b, #ffe873);
+}
+
+.file-bars {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.file-bars__row {
+    display: grid;
+    grid-template-columns: 70px 1fr 50px;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text);
+}
+
+.file-bars__row span:first-child {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.file-bars__value {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+}
+
 ol,
 ul {
     padding-left: 1.2rem;
