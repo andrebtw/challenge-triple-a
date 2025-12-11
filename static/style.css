@@ -127,6 +127,11 @@ li {
     font-size: 1.02rem;
 }
 
+p strong {
+    color: #ffffff;
+    font-weight: 750;
+}
+
 ol,
 ul {
     padding-left: 1.2rem;
