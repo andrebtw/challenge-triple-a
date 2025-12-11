@@ -132,6 +132,35 @@ p strong {
     font-weight: 750;
 }
 
+.grid {
+    display:flex;
+    gap: 2rem;
+}
+
+#cpu_cores {
+    display:flex;
+}
+
+#cpu_cores_list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 0.5rem 1.5rem;
+    list-style: none;
+    margin-top:0px;
+}
+
+.process-list-box {
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid var(--border);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: var(--bg);
+}
+
+.process-list-box:hover{
+    border: 1px solid var(--accent-strong);
+}
 .meter {
     width: 100%;
     background: #0c0f14;
@@ -139,7 +168,7 @@ p strong {
     border-radius: 10px;
     overflow: hidden;
     height: 14px;
-    margin-top: 0.35rem;
+    margin-top: 0.75rem;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
 }
 

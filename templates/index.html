@@ -21,7 +21,7 @@
 
     <header>
         <h1>Machine dashboard</h1>
-        <p><strong>Generated at:</strong> {{ generation_time }}</p>
+        <p><strong>Generated at:</strong> {{ GEN_TIME }}</p>
     </header>
 
     <main>
@@ -35,21 +35,35 @@
 
         <section class="cpu" id="cpu">
             <h2>CPU</h2>
-            <p><strong>Cores:</strong> {{ CPU_CORE_COUNT }}</p>
-            <p><strong>Current frequency:</strong> {{ CPU_CURRENT_FREQ }} MHZ</p>
-            <p><strong>Usage:</strong> {{ CPU_PERCENTAGE }} %</p>
+            <div class="grid">
+                <div class="left-side">
+                    <p><strong>Core count:</strong> {{ CPU_CORE_COUNT }}</p>
+                    <p><strong>Current frequency:</strong> {{ CPU_CURRENT_FREQ }} MHZ</p>
+                    <p><strong>Usage:</strong> {{ CPU_PERCENTAGE }} %</p>
+
+                </div>
+
+                <div class="right-side" id="cpu_cores">
+                    <strong>Cores:</strong></p>
+                    <ul id="cpu_cores_list">
+                        {% for value in CPU_PER_CORE %}
+                        <li>Core {{ loop.index0 }}: {{ value }} %</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
             <div class="meter" aria-label="CPU usage">
-                <div class="meter__bar" style="width: 50%;"></div>
+                <div class="meter__bar" style="width: {{ CPU_PERCENTAGE }}%;"></div>
             </div>
         </section>
 
         <section class="memory" id="memory">
-            <h2>RAM</h2>
-            <p><strong>RAM total:</strong> {{ MEMORY_TOTAL_GB }} GB</p>
-            <p><strong>RAM used:</strong> {{ MEMORY_USED_GB }} GB</p>
+            <h2>Memory</h2>
+            <p><strong>Memory total:</strong> {{ MEMORY_TOTAL_GB }} GB</p>
+            <p><strong>Memory used:</strong> {{ MEMORY_USED_GB }} GB</p>
             <p><strong>Usage:</strong> {{ MEMORY_USAGE_PERCENT }} %</p>
-            <div class="meter meter--blue" aria-label="Memory usage">
-                <div class="meter__bar" style="width: 50%;"></div>
+            <div class="meter" aria-label="Memory usage">
+                <div class="meter__bar" style="width: {{ MEMORY_USAGE_PERCENT }}%;"></div>
             </div>
         </section>
 
@@ -61,52 +75,67 @@
 
         <section class="processes" id="processes">
             <h2>Processes</h2>
-            <h3>Top 3 by CPU</h3>
-            <ol>
-                {% for P in TOP_CPU_PROCESSES %}
-                <li>{{ P.name }} (PID {{ P.pid }}) - {{ P.cpu }} %</li>
-                {% endfor %}
-            </ol>
+            <div class="grid">
+                <div id="left-side">
+                    <h3>Top 3 by CPU</h3>
+                    <ol>
+                        {% for P in TOP_CPU_PROCESSES %}
+                        <li>{{ P.name }} (PID {{ P.pid }}) - {{ P.cpu }} %</li>
+                        {% endfor %}
+                    </ol>
 
-            <h3>Top 3 by Memory</h3>
-            <ol>
-                {% for P in TOP_MEMORY_PROCESSES %}
-                <li>{{ P.name }} (PID {{ P.pid }}) - {{ P.ram }} %</li>
-                {% endfor %}
-            </ol>
+                    <h3>Top 3 by Memory</h3>
+                    <ol>
+                        {% for P in TOP_MEMORY_PROCESSES %}
+                        <li>{{ P.name }} (PID {{ P.pid }}) - {{ P.ram }} %</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+                <div id="right-side">
+                    <h3>All processes</h3>
+                        <div class="process-list-box">
+                            <ul>
+                                {% for P in ALL_PROCESSES %}
+                                <li>{{ P.name }} (PID {{ P.pid }}) - CPU {{ P.cpu }} %, RAM {{ P.ram }} %</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                </div>
+            </div>
         </section>
 
         <section class="files" id="files">
             <h2>Files</h2>
-            <p><strong>Analyzed folder:</strong> {{ FILES_DIRC }}</p>
+            <p><strong>Analyzed folder:</strong> {{ FILES_DIR }}</p>
             <ul>
                 <li>Total files: {{ FILES_TOTAL_COUNT }}</li>
+                <li>Image files: {{ IMAGE_FILES_COUNT }}</li>
                 <li>Text files: {{ TEXT_FILES_COUNT }}</li>
                 <li>PDF files: {{ PDF_FILES_COUNT }}</li>
-                <li>Python files: {{ PY_FILES_COUNT }}</li>
+                <li>Python files: {{ PYTHON_FILES_COUNT }}</li>
             </ul>
             {% set total = FILES_TOTAL_COUNT or 1 %}
             <div class="file-bars" aria-label="File type distribution">
                 <div class="file-bars__row">
                     <span>Text</span>
                     <div class="meter meter--slim">
-                        <div class="meter__bar" style="width: 50%;"></div>
+                        <div class="meter__bar" style="width: {{ (TEXT_FILES_COUNT / total * 100) | round(2) }}%;"></div>
                     </div>
-                    <span class="file-bars__value">50%</span>
+                    <span class="file-bars__value">{{ (TEXT_FILES_COUNT / total * 100) | round(2) }}%</span>
                 </div>
                 <div class="file-bars__row">
                     <span>PDF</span>
                     <div class="meter meter--slim">
-                        <div class="meter__bar meter__bar--pdf" style="width: 50%;"></div>
+                        <div class="meter__bar" style="width: {{ (PDF_FILES_COUNT / total * 100) | round(2) }}%;"></div>
                     </div>
-                    <span class="file-bars__value">50%</span>
+                    <span class="file-bars__value">{{ (PDF_FILES_COUNT / total * 100) | round(2) }}%</span>
                 </div>
                 <div class="file-bars__row">
                     <span>Python</span>
                     <div class="meter meter--slim">
-                        <div class="meter__bar meter__bar--python" style="width: 50%;"></div>
+                        <div class="meter__bar" style="width: {{ (PYTHON_FILES_COUNT / total * 100) | round(2) }}%;"></div>
                     </div>
-                    <span class="file-bars__value">50%</span>
+                    <span class="file-bars__value">{{ (PYTHON_FILES_COUNT / total * 100) | round(2) }}%</span>
                 </div>
             </div>
         </section>
