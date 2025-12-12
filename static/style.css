@@ -46,6 +46,12 @@ nav ul {
     max-width: 1100px;
     margin: 0 auto;
     justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
 }
 
 nav a {
@@ -54,7 +60,10 @@ nav a {
     text-transform: uppercase;
     letter-spacing: 0.06em;
     font-size: 1rem;
-    padding-bottom: 0.2rem;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    padding: 0.45rem 0;
     border-bottom: 2px solid transparent;
     font-weight: 700;
     transition: color 0.2s ease, border-color 0.2s ease;
