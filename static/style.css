@@ -46,6 +46,12 @@ nav ul {
     max-width: 1100px;
     margin: 0 auto;
     justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
 }
 
 nav a {
@@ -54,7 +60,10 @@ nav a {
     text-transform: uppercase;
     letter-spacing: 0.06em;
     font-size: 1rem;
-    padding-bottom: 0.2rem;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+    padding: 0.5rem 0;
     border-bottom: 2px solid transparent;
     font-weight: 700;
     transition: color 0.2s ease, border-color 0.2s ease;
@@ -149,6 +158,7 @@ p strong {
     margin-top:0px;
 }
 
+
 .process-list-box {
     max-height: 250px;
     overflow-y: auto;
@@ -228,9 +238,7 @@ ul {
     color: var(--muted);
 }
 
-li + li {
-    margin-top: 0.25rem;
-}
+
 
 .system p,
 .cpu p,
@@ -259,7 +267,6 @@ footer {
 
 @media (max-width: 640px) {
     nav ul {
-        flex-wrap: wrap;
         gap: 0.75rem 1rem;
     }
 
@@ -271,5 +278,99 @@ footer {
 
     main {
         max-height: none;
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        font-size: 16px;
+    }
+
+    nav ul {
+        padding: 0.85rem 1.5rem;
+        gap: 1.1rem;
+    }
+
+    header h1 {
+        font-size: 2.3rem;
+    }
+
+    header,
+    main,
+    footer {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 0.75rem 1rem;
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 0.95rem;
+        padding: 0.45rem 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 0.98rem;
+    }
+
+    section {
+        padding: 1.1rem;
+    }
+
+    .grid {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
+   #cpu_cores_list {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        gap: 0.75rem;
+    }
+
+    nav a {
+        font-size: 0.7rem;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 360px) {
+    nav ul {
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        font-size: 0.55rem;
+    }
+}
+@media (max-width: 240px) {
+        .grid {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    #cpu_cores_list {
+        grid-template-columns: repeat(2, auto);
     }
 }
